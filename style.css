@@ -1,0 +1,12 @@
+.box {
+  width: 2120px;
+  height: 6128px;
+}
+
+.box .apple-com-english-US {
+  position: fixed;
+  width: 2120px;
+  height: 6128px;
+  top: 0;
+  left: 0;
+}
