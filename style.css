@@ -1,12 +1,1354 @@
-.box {
-  width: 2120px;
-  height: 6128px;
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 1920px;
+  align-items: center;
+  padding: 44px 0px 0px;
+  position: relative;
 }
 
-.box .apple-com-english-US {
-  position: fixed;
-  width: 2120px;
-  height: 6128px;
+.main .section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 0px 12px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  z-index: 3;
+  border-bottom-width: 12px;
+  border-bottom-style: solid;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.main .background {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 692px;
+  z-index: 2;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.main .overlap-group {
+  width: 3008px;
+  height: 692px;
+  left: -544px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure.png);
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.main .heading-iphone {
+  position: absolute;
+  width: 335px;
+  height: 60px;
+  top: 54px;
+  left: 1337px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #f5f5f7;
+  font-size: 51.4px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.main .text-wrapper {
+  position: absolute;
+  width: 289px;
+  height: 32px;
+  top: 120px;
+  left: 1360px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 24.3px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 172px;
+  left: 1393px;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.9px;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .link-buy-iphone {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 172px;
+  left: 1541px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #2997ff;
+}
+
+.main .text-wrapper-2 {
+  color: #2997ff;
+  font-size: 16.7px;
+  letter-spacing: -0.37px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .background-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 692px;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  z-index: 1;
+  background-color: #f5f5f7;
+}
+
+.main .overlap-group-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 692px;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(14, 20, 63, 1) 20%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.main .overlap-group-2 {
+  width: 3008px;
+  height: 692px;
+  left: -544px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure-1.png);
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.main .heading-iphone-2 {
+  position: absolute;
+  width: 242px;
+  height: 60px;
+  top: 54px;
+  left: 1383px;
+  font-family: var(--apple-com-semantic-heading-2-font-family);
+  font-weight: var(--apple-com-semantic-heading-2-font-weight);
+  color: #f5f5f7;
+  font-size: var(--apple-com-semantic-heading-2-font-size);
+  text-align: center;
+  letter-spacing: var(--apple-com-semantic-heading-2-letter-spacing);
+  line-height: var(--apple-com-semantic-heading-2-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-heading-2-font-style);
+}
+
+.main .div-wrapper {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 172px;
+  left: 1393px;
+  background-color: #f5f5f7;
+  border-radius: 980px;
+}
+
+.main .text-wrapper-3 {
+  color: #000000;
+  font-size: 16.9px;
+  letter-spacing: -0.37px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .link-buy-iphone-2 {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 172px;
+  left: 1541px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #f5f5f7;
+}
+
+.main .text-wrapper-4 {
+  color: #f5f5f7;
+  font-size: 16.7px;
+  letter-spacing: -0.37px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .overlap-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 692px;
+  z-index: 0;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.main .overlap {
+  position: relative;
+  width: 3008px;
+  height: 692px;
+  left: -544px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure-2.png);
+  background-size: 100% 100%;
+}
+
+.main .heading {
+  width: 1920px;
+  height: 80px;
+  left: 544px;
+  position: absolute;
+  top: 58px;
+}
+
+.main .text-wrapper-5 {
+  position: absolute;
+  width: 205px;
+  height: 32px;
+  top: 151px;
+  left: 1401px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 24.6px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-2 {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 203px;
+  left: 1393px;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .link-buy-apple-watch {
+  display: inline-flex;
+  min-width: 72px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 22px;
+  position: absolute;
+  top: 203px;
+  left: 1541px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #0066cc;
+}
+
+.main .text-wrapper-6 {
+  color: #0066cc;
+  font-size: 16.7px;
+  letter-spacing: -0.37px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .section-2 {
+  width: 1896px;
+  height: 1776px;
+  z-index: 2;
+  border-bottom-width: 12px;
+  border-bottom-style: solid;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.main .background-2 {
+  position: absolute;
+  width: 942px;
+  height: 580px;
+  top: 1184px;
+  left: 954px;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.main .overlap-group-3 {
+  width: 1262px;
+  height: 580px;
+  left: -160px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure-3.png);
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.main .img {
+  width: 430px;
+  height: 33px;
+  left: 416px;
+  position: absolute;
+  top: 58px;
+}
+
+.main .container {
+  max-width: 290px;
+  width: 290px;
+  padding: 0px 12.03px;
+  position: absolute;
+  top: 100px;
+  left: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .get-up-to-daily {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-left: -0.03px;
+  margin-right: -0.03px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 18.5px;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 25px;
+}
+
+.main .link-learn-more-3 {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 167px;
+  left: 522px;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .text-wrapper-7 {
+  color: #ffffff;
+  font-size: 13.9px;
+  letter-spacing: -0.22px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .link-apply-now-apple {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 167px;
+  left: 641px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #0066cc;
+}
+
+.main .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0066cc;
+  font-size: 13.8px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .background-3 {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  align-items: center;
+  gap: 10px;
+  padding: 58px 256px 377px;
+  position: absolute;
+  top: 1184px;
+  left: 0;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.main .figure {
+  position: absolute;
+  width: 1262px;
+  height: 580px;
+  top: 0;
+  left: -160px;
+}
+
+.main .link {
+  position: absolute;
+  width: 942px;
+  height: 580px;
   top: 0;
   left: 0;
+}
+
+.main .heading-2 {
+  height: 32px;
+  position: relative;
+  max-width: 430px;
+  width: 430px;
+}
+
+.main .get-in-wrapper {
+  max-width: 315px;
+  width: 315px;
+  padding: 0px 0.58px 7px;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .get-in {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-left: -0.08px;
+  margin-right: -0.08px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 18.9px;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 25px;
+}
+
+.main .div-wrapper-2 {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .background-4 {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  align-items: center;
+  gap: 15px;
+  padding: 58px 256px 332px;
+  position: absolute;
+  top: 592px;
+  left: 954px;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.main .rectangle {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  top: 503px;
+  left: 615px;
+}
+
+.main .heading-3 {
+  height: 31px;
+  position: relative;
+  max-width: 430px;
+  width: 430px;
+}
+
+.main .image {
+  position: relative;
+  max-width: 430px;
+  width: 430px;
+  height: 26px;
+}
+
+.main .home-runs-diving-wrapper {
+  max-width: 320px;
+  width: 320px;
+  padding: 0px 15.23px;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .home-runs-diving {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #f5f5f7;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 25px;
+}
+
+.main .link-learn-more-4 {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 16px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #f5f5f7;
+  border-radius: 980px;
+}
+
+.main .text-wrapper-9 {
+  color: #000000;
+  font-size: 13.9px;
+  letter-spacing: -0.22px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .background-5 {
+  position: absolute;
+  width: 942px;
+  height: 580px;
+  top: 592px;
+  left: 0;
+  background-color: #c7e6f1;
+  overflow: hidden;
+}
+
+.main .overlap-2 {
+  position: relative;
+  width: 1262px;
+  height: 580px;
+  left: -160px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure-6.png);
+  background-size: 100% 100%;
+}
+
+.main .p {
+  position: absolute;
+  width: 313px;
+  height: 25px;
+  top: 100px;
+  left: 475px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 18.4px;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.main .link-learn-more-ipad {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 143px;
+  left: 541px;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .link-buy-ipad-air {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 18.85px 8px 18.84px;
+  position: absolute;
+  top: 143px;
+  left: 659px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #0066cc;
+}
+
+.main .text-wrapper-10 {
+  color: #0066cc;
+  font-size: 13.9px;
+  letter-spacing: -0.22px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-11 {
+  position: absolute;
+  width: 183px;
+  height: 18px;
+  top: 507px;
+  left: 540px;
+  background: linear-gradient(
+    126deg,
+    rgba(0, 144, 247, 1) 0%,
+    rgba(186, 98, 252, 1) 33%,
+    rgba(242, 65, 107, 1) 67%,
+    rgba(245, 86, 0, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--apple-com-inter-medium-font-family);
+  font-weight: var(--apple-com-inter-medium-font-weight);
+  color: transparent;
+  font-size: var(--apple-com-inter-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--apple-com-inter-medium-letter-spacing);
+  line-height: var(--apple-com-inter-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-inter-medium-font-style);
+}
+
+.main .background-6 {
+  position: absolute;
+  width: 942px;
+  height: 580px;
+  top: 0;
+  left: 954px;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.main .overlap-3 {
+  position: relative;
+  width: 1262px;
+  height: 580px;
+  left: -160px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/figure-7.png);
+  background-size: 100% 100%;
+}
+
+.main .heading-macbook {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  top: 52px;
+  left: 519px;
+  font-family: var(--apple-com-semantic-heading-3-font-family);
+  font-weight: var(--apple-com-semantic-heading-3-font-weight);
+  color: #1d1d1f;
+  font-size: var(--apple-com-semantic-heading-3-font-size);
+  text-align: center;
+  letter-spacing: var(--apple-com-semantic-heading-3-letter-spacing);
+  line-height: var(--apple-com-semantic-heading-3-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-heading-3-font-style);
+}
+
+.main .sky-blue-color-sky-wrapper {
+  max-width: 430px;
+  width: 430px;
+  padding: 0px 75.8px 0px 75.78px;
+  position: absolute;
+  top: 101px;
+  left: 416px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-size: 18.4px;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 25px;
+}
+
+.main .link-learn-more-5 {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  position: absolute;
+  top: 168px;
+  left: 541px;
+  background-color: #0071e3;
+  border-radius: 980px;
+}
+
+.main .link-buy-macbook-air {
+  display: inline-flex;
+  min-width: 62px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 18.85px 8px 18.84px;
+  position: absolute;
+  top: 168px;
+  left: 659px;
+  border-radius: 980px;
+  border: 1px solid;
+  border-color: #0066cc;
+}
+
+.main .background-7 {
+  display: flex;
+  flex-direction: column;
+  width: 942px;
+  height: 580px;
+  align-items: center;
+  gap: 17px;
+  padding: 424px 266px 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f7;
+  overflow: hidden;
+}
+
+.main .apple-worldwide-wrapper {
+  max-width: 410px;
+  width: 410px;
+  padding: 0px 18.98px 0px 18.97px;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .section-group-tv {
+  position: relative;
+  width: 1920px;
+  height: 705.25px;
+  z-index: 1;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.main .tabpanel {
+  left: 1592px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .div-2 {
+  position: absolute;
+  width: 1250px;
+  height: 667px;
+  top: 0;
+  left: 8px;
+  background: radial-gradient(
+    50% 50% at 75% -26%,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.main .stream-now-severance {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 72px;
+  align-items: flex-start;
+  padding: 12px 22px;
+  position: absolute;
+  top: 587px;
+  left: 70px;
+  background-color: #f5f5f7;
+  border-radius: 980px;
+  opacity: 0.0;
+}
+
+.main .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16.7px;
+  letter-spacing: -0.37px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.main .thriller-there-s {
+  position: absolute;
+  width: 323px;
+  height: 24px;
+  top: 596px;
+  left: 223px;
+  text-shadow: 0px 0px 5px #00000099;
+  opacity: 0.0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.7px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.main .span {
+  font-weight: var(--apple-com-inter-bold-font-weight);
+  font-family: var(--apple-com-inter-bold-font-family);
+  font-style: var(--apple-com-inter-bold-font-style);
+  letter-spacing: var(--apple-com-inter-bold-letter-spacing);
+  line-height: var(--apple-com-inter-bold-line-height);
+  font-size: var(--apple-com-inter-bold-font-size);
+}
+
+.main .text-wrapper-14 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.7px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.main .text-wrapper-15 {
+  font-family: var(--apple-com-inter-regular-font-family);
+  font-weight: var(--apple-com-inter-regular-font-weight);
+  color: #ffffff;
+  font-size: var(--apple-com-inter-regular-font-size);
+  letter-spacing: var(--apple-com-inter-regular-letter-spacing);
+  line-height: var(--apple-com-inter-regular-line-height);
+  font-style: var(--apple-com-inter-regular-font-style);
+}
+
+.main .link-2 {
+  position: relative;
+  width: 1250px;
+  height: 667.25px;
+}
+
+.main .tabpanel-2 {
+  left: 2858px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-3 {
+  left: 4122px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-4 {
+  left: 5388px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-5 {
+  left: 6652px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-6 {
+  left: 7918px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-7 {
+  left: 9182px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-8 {
+  left: 10448px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-9 {
+  left: -938px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .tabpanel-10 {
+  left: 328px;
+  display: flex;
+  width: 1265px;
+  height: 667px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7.5px;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.main .stream-now-the {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 72px;
+  align-items: flex-start;
+  padding: 12px 22px;
+  position: absolute;
+  top: 567px;
+  left: 70px;
+  background-color: #f5f5f7;
+  border-radius: 980px;
+  opacity: 1.0;
+}
+
+.main .comedy-seth-rogen {
+  position: absolute;
+  width: 677px;
+  height: 24px;
+  top: 576px;
+  left: 223px;
+  text-shadow: 0px 0px 5px #00000099;
+  opacity: 1.0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.7px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.main .tablist {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+  padding: 0px 7px;
+  position: absolute;
+  top: 683px;
+  left: 850px;
+}
+
+.main .tab-item-the {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #000000cc;
+  border-radius: 4px;
+}
+
+.main .div-3 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #0000006b;
+  border-radius: 4px;
+}
+
+.main .section-3 {
+  align-self: stretch;
+  width: 100%;
+  height: 292px;
+  z-index: 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.main .gallery-of-apple {
+  position: absolute;
+  width: 1920px;
+  height: 236px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.main .link-3 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 236px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main .background-8 {
+  position: relative;
+  width: 417px;
+  height: 236px;
+  background-color: #252527;
+}
+
+.main .SVG {
+  width: 59px;
+  left: 343px;
+  position: absolute;
+  height: 14px;
+  top: 199px;
+}
+
+.main .image-2 {
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  top: 20px;
+  left: 15px;
+}
+
+.main .lady-gaga-the-zane {
+  position: absolute;
+  width: 179px;
+  height: 34px;
+  top: 100px;
+  left: 226px;
+  font-family: var(--apple-com-semantic-link-font-family);
+  font-weight: var(--apple-com-semantic-link-font-weight);
+  color: #000000;
+  font-size: var(--apple-com-semantic-link-font-size);
+  letter-spacing: var(--apple-com-semantic-link-letter-spacing);
+  line-height: var(--apple-com-semantic-link-line-height);
+  font-style: var(--apple-com-semantic-link-font-style);
+}
+
+.main .link-4 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 236px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 432px;
+}
+
+.main .background-9 {
+  position: relative;
+  width: 417px;
+  height: 236px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/background.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .SVG-wrapper {
+  position: relative;
+  height: 236px;
+}
+
+.main .SVG-2 {
+  width: 68px;
+  left: 334px;
+  position: absolute;
+  height: 14px;
+  top: 199px;
+}
+
+.main .text-wrapper-16 {
+  position: absolute;
+  width: 129px;
+  height: 18px;
+  top: 197px;
+  left: 15px;
+  font-family: var(--apple-com-semantic-link-font-family);
+  font-weight: var(--apple-com-semantic-link-font-weight);
+  color: #ffffff;
+  font-size: var(--apple-com-semantic-link-font-size);
+  letter-spacing: var(--apple-com-semantic-link-letter-spacing);
+  line-height: var(--apple-com-semantic-link-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-link-font-style);
+}
+
+.main .link-5 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 236px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 864px;
+}
+
+.main .background-10 {
+  position: relative;
+  width: 417px;
+  height: 236px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/background-1.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .SVG-3 {
+  width: 78px;
+  left: 324px;
+  position: absolute;
+  height: 14px;
+  top: 199px;
+}
+
+.main .text-wrapper-17 {
+  position: absolute;
+  width: 131px;
+  height: 18px;
+  top: 197px;
+  left: 15px;
+  font-family: var(--apple-com-semantic-link-font-family);
+  font-weight: var(--apple-com-semantic-link-font-weight);
+  color: #ffffff;
+  font-size: var(--apple-com-semantic-link-font-size);
+  letter-spacing: var(--apple-com-semantic-link-letter-spacing);
+  line-height: var(--apple-com-semantic-link-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-link-font-style);
+}
+
+.main .link-6 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 236px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 1296px;
+}
+
+.main .text-wrapper-18 {
+  position: absolute;
+  width: 54px;
+  height: 18px;
+  top: 108px;
+  left: 226px;
+  font-family: var(--apple-com-semantic-link-font-family);
+  font-weight: var(--apple-com-semantic-link-font-weight);
+  color: #ffffff;
+  font-size: var(--apple-com-semantic-link-font-size);
+  letter-spacing: var(--apple-com-semantic-link-letter-spacing);
+  line-height: var(--apple-com-semantic-link-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-link-font-style);
+}
+
+.main .link-7 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 236px;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 1728px;
+}
+
+.main .gradient-wrapper {
+  position: relative;
+  width: 417px;
+  height: 236px;
+  background-image: url(https://c.animaapp.com/BAunDSiH/img/background-2.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .gradient {
+  height: 236px;
+  background: linear-gradient(
+    0deg,
+    rgba(29, 29, 31, 0.5) 0%,
+    rgba(0, 0, 0, 1) 50%
+  );
+}
+
+.main .text-wrapper-19 {
+  position: absolute;
+  width: 57px;
+  height: 18px;
+  top: 197px;
+  left: 15px;
+  font-family: var(--apple-com-semantic-link-font-family);
+  font-weight: var(--apple-com-semantic-link-font-weight);
+  color: #ffffff;
+  font-size: var(--apple-com-semantic-link-font-size);
+  letter-spacing: var(--apple-com-semantic-link-letter-spacing);
+  line-height: var(--apple-com-semantic-link-line-height);
+  white-space: nowrap;
+  font-style: var(--apple-com-semantic-link-font-style);
+}
+
+.main .button-play-the {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 252px;
+  left: 1880px;
+  background-color: #d2d2d7;
+  border-radius: 12px;
+}
+
+.main .mask-group {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  left: 6px;
 }
